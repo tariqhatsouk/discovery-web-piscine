@@ -1,0 +1,24 @@
+Git Daily Workflow
+
+1. Edit files
+I create or modify files in the Working Directory.
+
+2. Check changes
+git status
+
+This command shows which files were modified or are untracked.
+
+3. Stage files
+git add <file>
+
+This moves selected changes to the Staging Area.
+
+4. Create a commit
+git commit -m "message"
+
+This records a snapshot of the staged changes in the local repository.
+
+5. Push to GitHub
+git push origin main
+
+This sends the local commits to the remote GitHub repository
